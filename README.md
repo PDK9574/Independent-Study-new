@@ -6,10 +6,13 @@
 
 ## 📸 系統展示
 
-![分析結果頁面](assets/demo.png)
+![分析結果頁面](assets/demo1.png)
 
 > 上傳賽鴿圖片，系統自動分析並輸出綜合素質評分
 
+![分析結果頁面](assets/demo2.png)
+
+![分析結果頁面](assets/demo3.png)
 ---
 
 ## 📖 專題簡介
