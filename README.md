@@ -6,11 +6,12 @@
 
 ## 📸 系統展示
 
-![分析結果頁面](assets/demo1.png)
-
 > 上傳賽鴿圖片，系統自動分析並輸出綜合素質評分
 
-![分析結果頁面](assets/demo2.png)
+![主頁面](assets/demo1.png)
+
+
+![缺失值頁面](assets/demo2.png)
 
 ![分析結果頁面](assets/demo3.png)
 ---
@@ -84,29 +85,9 @@
 ```
 .
 ├── src/
-│   ├── android/           # Android 應用程式
-│   ├── backend/           # Flask 後端 API
-│   └── fuzzy/             # 模糊專家系統
-├── train_model.ipynb      # 模型訓練 Notebook
+├── doc/                # 文件
 ├── assets/                # 圖片、架構圖、結果截圖
 └── README.md
-```
-
----
-
-## 🚀 如何執行
-
-### 模型訓練
-```bash
-# 開啟 Google Colab，執行 train_model.ipynb
-# 需先將資料集上傳至 Google Drive
-```
-
-### 後端伺服器
-```bash
-pip install flask ultralytics
-python app.py
-# 搭配 ngrok 穿透：ngrok http 5000
 ```
 
 ---
